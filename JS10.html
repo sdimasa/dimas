@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>9 квітня</title>
+    <style type="text/css">
+        body{
+             background: linear-gradient(to right, #fc00ff, #00dbde);
+        }
+    </style>
+</head>
+<body style="background: linear-gradient(to right, #52c234, #061700);">
+    <script>
+      /*let str = "у дворі трава на траві дрова";
+alert(str.substring(2,6) ); // «двор»
+alert(str.substr(2,6)); // «дворі »
+alert(str.slice(2,-6)); // «дворі трава на траві»
+        let str=prompt("Введіть рядок","")
+        alert(str[0].toUpperCase()+str.slice(1))
+        function bigOne(str) {
+// Порожній рядок під час такої перевірки дає 0 
+        if (str.charAt(0)==0) return str= 'Прохання, не вводьте порожніх рядків ';
+ return str[0].toUpperCase() + str.slice(1); // тут ми перестворимо рядок
+}
+        let strInBigOne = prompt("Введіть рядок", "ім'я пишеться з великої літери");
+alert( bigOne(strInBigOne) );
+        let str="Україна";
+        if(~str.indexOf("країна")){
+            alert("співпадіння є!");
+        }else{
+            alert("співпадіння немає!");
+        }
+        function findSpam(str) {  
+let lowCaseStr = str.toLowerCase();  
+return !!(~lowCaseStr.indexOf('безкоштовно') || ~lowCaseStr.indexOf('гарантія'));  }  
+alert( 'Отримайте БЕЗКОШТОВНО, тільки клікнувши на посилання'+ ' перевірка на спам : ' + findSpam('Отримайте БЕЗКОШТОВНО, тільки клікнувши на посилання ') );  
+alert('Це гарантія, що ви виграєте' + 'перевірка на спам : ' + findSpam('Це гарантія, що ви виграєте ') );
+alert('Привіт як справи?'+ ' перевірка на спам : ' + findSpam('Привіт як справи?') );
+        let str = "бредуть бобри в сирі бори. бобри хоробрі, а для бобрят добрі ";
+let target = "бо"; // мета пошуку
+let position = 0;
+// Довжину рядка визначати не будемо використовуємо нескінченний цикл з перериванням break вкінці рядка
+while (true) {
+ let searchPos = str.indexOf(target, position);
+ if (searchPos == -1) break; // якщо рядок закінчився
+
+ alert( ' знайшли '+target+ ' тут: ' + searchPos );
+ position = searchPos + 1; // продовжити пошук з наступного
+}*/
+        let something = prompt("Введіть число")
+
+while(isNaN(something)){
+    something = prompt("Це NaN - не число! Введіть щось")   
+
+} 
+document.write("в числі " + something+ " кількість цифр: "+something.length)
+for(i=0;i<something.length;i++){
+    document.write("<br>"+something[i])
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

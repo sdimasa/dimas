@@ -1,0 +1,27 @@
+body{
+	background-color: orange;
+}
+p{
+	font-size: 50px;
+	color: navy;
+	background-color: orange;
+}
+ul,ol{
+	font-size: 30px;
+	color: navy;
+}
+ol{
+	margin-left: 150px;
+}
+
+
+ul li::marker{
+	color: darkred;
+	font-size: 1.2cm;
+}
+.m1 li{
+	list-style-type: '☺';
+}
+.m2 li{
+	list-style-type: '♠';
+}

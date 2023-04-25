@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>26 березня</title>
+    <style type="text/css">
+        body{
+    background: linear-gradient(to right, #f7ff00, #db36a4);
+
+}      
+    </style>
+</head>
+<body style="background: linear-gradient(to right, #52c234, #061700);">
+    <p style=" background: linear-gradient(to right, #fc00ff, #00dbde);color: white;font-size: 50px; text-align: center;">Розрахунки периметра і площі:</p>
+<script>
+	
+/*let numbers = ['Нуль','Один','Два'];
+alert(numbers[0]);//Нуль
+alert(numbers[1]);//Один
+alert(numbers[2]);//Два
+numbers[2] = "не два";// тепер["Нуль","Один","не два"]
+alert(numbers);
+numbers[3] = "Три";// тепер["Нуль","Один","не два","Три"]
+alert(numbers);
+	let count=+prompt('Скільки буде 2*2?',0);
+    switch(count){
+    case 3:
+    	alert('Якось мало');
+    	break;
+    case 4:
+    	alert('Правильно');
+    	break;
+    case 5:
+    	alert('Багато');
+    	break;
+    default:
+    	alert('Я не вмію рахувати');
+    }
+    let numberX=prompt('Введіть число від 1 до 5',1);
+    switch(numberX){
+    case '1':
+    case '2':
+    	alert('Один');
+    	alert('Два');
+    	break;
+    case '3':
+    	alert('Три');
+    	break;
+    case '4':
+    	alert('Ви впевненні?');
+    	break;
+     case '5':
+    	alert('Крайнє значення  : 5 ');
+    	break;
+     default:
+    	alert('Інші значення: ' + numberX);
+    }
+    let countX=+prompt('Введіть оцінку від 1 до 12');
+    switch(countX){
+    case 1:
+    case 2:
+    case 3:
+    	alert('Незадовільно!');
+    	break;
+    case 4:
+    case 5:
+    case 6:
+    	alert('Задовільно!');
+    	break;
+    case 7:
+    case 8:
+    case 9:
+    	alert('Молодець!');
+    	break;
+    case 10:
+    case 11:
+    case 12:
+    	alert('Красавчик!');
+    	break;
+    default:
+    	alert('Такої оцінки не існує');
+    }*/
+    let a=+prompt("Введіть сторону a трикутника","")
+     let b=+prompt("Введіть сторону b трикутника","")
+      let c=+prompt("Введіть сторону c трикутника","")
+      if(a<=0||b<=0||c<=0||(a+b)<=c||(a+c)<=b||(b+c)<=a){
+        document.write('Трикутника не існує')
+      }else{
+      let P=a+b+c;
+      let p=P/2;
+      document.write(`Периметр трикутника зі стронами: a=${a} b=${b} c=${c} дорівнює ${P}<br>`)
+      let S=Math.sqrt(p*(p-a)*(p-b)*(p-c));
+      document.write(`Площа трикутника  зі стронами: a=${a} b=${b} c=${c} дорівнює ${S}`)
+      }
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+body{
+	background-color: grey;
+}
+p.first{
+	color: orange;
+	font-size: 1cm;
+	background: linear-gradient(black,red);
+	font-family: cursive;
+}
+.second{
+	font-size: 50px;
+	color: orange;
+	font-family: 'Caveat', cursive;
+
+}

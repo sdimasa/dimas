@@ -1,0 +1,37 @@
+body{
+	background: linear-gradient(to right, #6441a5, #2a0845);
+}
+p{
+	color: blue;
+	font-size: 50px;
+	font-family: cursive;
+}
+table{
+	border: double 5px lime;
+	width: 50%;
+	background: linear-gradient(45deg,red,blue);
+}
+th,td{
+	border: solid 2px navy;
+	width: 25%;
+	height: 1cm;
+	font-size: 24px;
+}
+tr:hover{
+	background-color: lightcyan;
+}
+td:hover{
+	background: linear-gradient(#f00,#0f0,#00f,#ff0,#fff,#000);
+	color: #fff;
+	font-weight: 800;
+	font-size: 1cm;
+	text-align: center;
+}
+tr:nth-child(odd){
+	background-color: violet;
+}
+caption{
+	font-size:40px ;
+	color:red ;
+	text-shadow:2px -2px black;
+}

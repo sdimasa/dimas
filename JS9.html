@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>7 квітня</title>
+	<style type="text/css">
+		body{
+		 background: linear-gradient(to left, #004ff9, #fff94c);
+		}
+	</style>
+</head>
+<body style="background: linear-gradient(to right, #52c234, #061700);">
+<script>
+	/*let x = prompt("Введіть будь-яке значення:", "-3.14");
+while  (isNaN(x)) {
+	x = prompt("Введіть будь-яке значення:", "-3.14");
+ alert( "Це NaN - не число!" );
+} 
+ alert( "Ви ввели число: " + x );
+	let x = +prompt("Введіть будь-яке значення від 0 до 1 :", 0.1);
+let y = +prompt("Введіть будь-яке значення від 0 до 1 :", 0.1); 
+if ((x>0&&x<1)&&(y>0&&y<1)){
+ alert( (x + y).toFixed(2) ); 
+} else{
+alert ("Введіть числа з вказаного діапазону!");
+}
+	document.write(Math.random())
+
+	for(i=0;i<1000;i++){
+		document.writeln(Math.round(Math.random()*100))
+	}*/
+	let min=+prompt("Введіть мінімальне число діапазону",0)
+	let max=+prompt("Введіть максимальне число діапазону",100)
+	for(i=0;i<1000;i++){
+		document.writeln(Math.round(min+Math.random()*(max-min)))
+	}
+
+
+</script>
+</body>
+</html>

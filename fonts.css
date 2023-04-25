@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rubik+Storm&display=swap');
+body{
+	background: linear-gradient(to right,#833ab4,#fd1d1d,#fcb045);
+
+}      
+.first, .second{
+font-size: 50px;
+color: darkblue;
+}
+.first{
+font-family: 'Great Vibes', cursive;
+}
+.second{
+font-family: 'Great Vibes', serif;
+}
+.third{
+	font-size: 1cm;
+	color: blue;
+	font-style: italic;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.fourth{
+	font-size: 1cm;
+	color: orange;
+	font-variant: small-caps;
+}
+.big{
+	font-size: 2cm;
+	font-weight: 900;
+	color: yellow;
+}
+.five{
+font-family: 'Rubik Storm',cursive;
+font-size: 2cm;
+color: lime;
+text-shadow: 5px -5px 15px blue;
+text-decoration: underline;
+	text-decoration-color: black;
+	text-decoration-style: wavy;
+	text-underline-position: under;
+
+}
+.six{
+	font-family: 'Great Vibes',cursive;
+	font-size: 1cm;
+	color: blue;
+	text-shadow: 5px -5px 15px yellow;
+	text-decoration: underline;
+	text-decoration-color: black;
+	text-decoration-style: dotted;
+	text-underline-position: under;
+}
+
